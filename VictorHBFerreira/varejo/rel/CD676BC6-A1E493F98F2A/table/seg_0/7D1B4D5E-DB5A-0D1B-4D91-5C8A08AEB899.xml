@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D1B4D5E-DB5A-0D1B-4D91-5C8A08AEB899" name="DIM_TEMPO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>E3ADAA91-40AA-532E-A1F1-BEBE480D5126</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_TEMPO" id="3AC5188D-D87B-E578-6BD1-536D5E35E61E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>3CA2EB91-5989-DB50-F0DA-37DBF799BAA3</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EVENTO" id="B8F11916-1443-4911-8439-09AF761F688A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>15908825-6F9F-0221-0272-D5F1C8D29225</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DIA" id="7E305F3F-6E9C-6C39-9827-DAED981E8FF2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>D989447D-3075-50E0-37CC-54A67CE68765</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_MES" id="04173D03-AE02-C913-6D1F-B4615C84DB99">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>2A092D36-F583-6F2D-E05A-712606E5CD98</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MES" id="7849621F-22A0-60ED-8C6A-CEEF2E6E9ECF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>00C6BF0E-772C-911A-05E5-1285D27AB9E1</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_ANO" id="2FBE5FCA-4841-258B-064C-F2E4157E4BA7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>DD14C05F-EC98-0A8B-E08D-45D5548F2862</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07CE6CAA-A9FB-BFDB-4C6C-532550C91BDB" name="DIM_TEMPO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>456F1016-A017-30B1-4136-0B85ED42FEB2</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AC5188D-D87B-E578-6BD1-536D5E35E61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

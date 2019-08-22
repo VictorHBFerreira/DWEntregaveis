@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D91B5FE7-27CC-33D6-B489-A6CBF6C06547" containerWithKeyObject="08D15B7F-0362-ACF1-3C8E-B1941F9E834F" localFKIndex="3352B326-8232-E42D-4A70-9B01792E4B24" name="FTO_VEND_VARE_DIM_PROD_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>8238EC60-C189-1142-2B0B-28BB38B838AA</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<referredTableLongName>DIM_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>97AA91CA-98E9-60BF-F56B-9D43FE3C6CE5</referredTableID>
+<keyObject>C3A7C844-7339-C00F-90C2-67EC63BE5215</keyObject>
+<referredKeyID>C3A7C844-7339-C00F-90C2-67EC63BE5215</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_PRODUTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

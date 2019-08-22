@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CA277F8-5E3D-DFBF-DAD7-7AD7AE709E91" name="FTO_VENDA_VAREJA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:51:42 UTC</createdTime>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_TEMPO" id="D392DF3C-354E-0320-9FA7-8A3FB905FB4F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:00:21 UTC</createdTime>
+<generatorID>B04D5552-0C38-0703-C5F2-6A4E01A476FA</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<referedAttribute>3CA2EB91-5989-DB50-F0DA-37DBF799BAA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_PRODUTO" id="B5D3E3A7-0E08-E18F-E97A-D1FF4AB7C035">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:56:35 UTC</createdTime>
+<generatorID>8238EC60-C189-1142-2B0B-28BB38B838AA</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<referedAttribute>8A59A006-4DA5-598D-CB13-967CC2633DCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_LOJA" id="2BD5FF30-19B3-4BFA-1085-BF06BD2917B4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:09:34 UTC</createdTime>
+<generatorID>F0865368-2A8D-EE63-51B8-769EA7BB416A</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<referedAttribute>8A77BC8C-060B-7350-2EF2-71BAB70652C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOT_VENDA" id="FE94F8A3-69E1-9F9C-CC8E-F8094761F301">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:56:42 UTC</createdTime>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_QTD_VENDA" id="D0512995-6A1E-31D6-C4A3-7EA9D107F8A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:57:04 UTC</createdTime>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFECB351-46F8-0781-6483-22246F1478EE" name="FTO_VENDA_VAREJA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:53:33 UTC</createdTime>
+<ownerDesignName>varejo</ownerDesignName>
+<engineerTo>
+<item key="CD676BC6-6F21-CD4D-B8EB-A1E493F98F2A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D392DF3C-354E-0320-9FA7-8A3FB905FB4F</attributeRef>
+<attributeRef>B5D3E3A7-0E08-E18F-E97A-D1FF4AB7C035</attributeRef>
+<attributeRef>2BD5FF30-19B3-4BFA-1085-BF06BD2917B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

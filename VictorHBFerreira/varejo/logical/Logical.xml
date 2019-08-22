@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9981E8E2-DB80-896F-255E-3859F0BC778C" mainViewID="2D521AA4-D9F0-6173-8A36-8A937E510A06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 11:42:19 UTC</createdTime>
+<ownerDesignName>varejo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

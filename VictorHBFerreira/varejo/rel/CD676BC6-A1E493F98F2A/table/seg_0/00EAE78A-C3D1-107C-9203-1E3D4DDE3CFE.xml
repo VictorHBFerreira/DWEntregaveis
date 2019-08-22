@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00EAE78A-C3D1-107C-9203-1E3D4DDE3CFE" name="DIM_LOJA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>5D3883FD-DAA5-7931-C373-A76AA6ED6BFF</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_LOJA" id="0F4B0CBF-FA09-0B12-6D07-EFBBAFA7AB9B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>8A77BC8C-060B-7350-2EF2-71BAB70652C3</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOJA" id="7C0FBF79-E04F-4EB5-EB43-261446E97073">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>3236CEF5-B548-55AA-B39C-A09220AE1645</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_DISTRITO" id="04DB7863-3C3D-F100-2D22-0255F5C8316F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>37080665-0908-7F6F-4D4C-5E56A42DBB9C</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_REGIAO" id="28E68545-497C-7B40-7B10-0184253C532C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>70ADFEF7-1328-5483-D6A7-F4905FC7BB2B</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ESTADO" id="4F28F22E-D8AF-119F-F07B-89425793BFEC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>3C82B50B-2EAD-D6EB-4F05-99E5880FE6AA</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6036B20-143D-3410-D603-1505262973A9" name="DIM_LOJA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>1EF61F61-83A3-1A6C-EDD5-71196700D991</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F4B0CBF-FA09-0B12-6D07-EFBBAFA7AB9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

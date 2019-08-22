@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="366AF745-9D9D-82EF-2ABA-E8FD30C38478" containerWithKeyObject="08D15B7F-0362-ACF1-3C8E-B1941F9E834F" localFKIndex="A2722FF7-79D2-30A0-DD3C-A733FF75DA2C" name="FTO_VEND_VARE_DIM_LOJ_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-08-22 12:13:29 UTC</createdTime>
+<generatorID>F0865368-2A8D-EE63-51B8-769EA7BB416A</generatorID>
+<ownerDesignName>varejo</ownerDesignName>
+<referredTableLongName>DIM_LOJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00EAE78A-C3D1-107C-9203-1E3D4DDE3CFE</referredTableID>
+<keyObject>F6036B20-143D-3410-D603-1505262973A9</keyObject>
+<referredKeyID>F6036B20-143D-3410-D603-1505262973A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_LOJA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
